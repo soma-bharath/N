@@ -19,8 +19,14 @@ function startstage() {
     },500);
   }, 9000);
   setTimeout(function(){
+    $('#t4').animate({opacity:0, top:'-5px'},1000);
+    setTimeout(function(){
+      $('#t5').animate({opacity:1, top:'0px'},500);
+    },500);
+  }, 12000);
+  setTimeout(function(){
     $('#start-btn').addClass('open');
-  },11000);
+  },15000);
 }
 function roll1(t) {
   mm1 = setInterval(function(){
