@@ -72,9 +72,15 @@ function startstage() {
           $('#t13').animate({opacity:1, top:'0px'},500);
         },500);
       }, 36000);
+      setTimeout(function(){
+        $('#t13').animate({opacity:0, top:'-5px'},1000);
+        setTimeout(function(){
+          $('#t14').animate({opacity:1, top:'0px'},500);
+        },500);
+      }, 39000);
     setTimeout(function(){
       $('#start-btn').addClass('open');
-    },39000);
+    },42000);
   }
   function roll1(t) {
     mm1 = setInterval(function(){
