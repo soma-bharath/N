@@ -25,6 +25,12 @@ function startstage() {
     },500);
   }, 12000);
   setTimeout(function(){
+    $('#t4').animate({opacity:0, top:'-5px'},1000);
+    setTimeout(function(){
+      $('#t5').animate({opacity:1, top:'0px'},500);
+    },500);
+  }, 15000);
+  setTimeout(function(){
     $('#start-btn').addClass('open');
   },15000);
 }
