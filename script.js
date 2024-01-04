@@ -83,10 +83,10 @@ function startstage() {
         setTimeout(function(){
           $('#t15').animate({opacity:1, top:'0px'},500);
         },500);
-      }, 39000);
+      }, 42000);
     setTimeout(function(){
       $('#start-btn').addClass('open');
-    },42000);
+    },45000);
   }
   function roll1(t) {
     mm1 = setInterval(function(){
