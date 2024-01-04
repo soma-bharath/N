@@ -79,6 +79,12 @@ function startstage() {
         },500);
       }, 39000);
     setTimeout(function(){
+        $('#t14').animate({opacity:0, top:'-5px'},1000);
+        setTimeout(function(){
+          $('#t15').animate({opacity:1, top:'0px'},500);
+        },500);
+      }, 39000);
+    setTimeout(function(){
       $('#start-btn').addClass('open');
     },42000);
   }
