@@ -5,88 +5,88 @@ function startstage() {
       setTimeout(function(){
         $('#t2').animate({opacity:1, top:'0px'},500);
       },500);
-    }, 3000);
+    }, 3100);
     setTimeout(function(){
       $('#t2').animate({opacity:0, top:'-5px'},1000);
       setTimeout(function(){
         $('#t3').animate({opacity:1, top:'0px'},500);
       },500);
-    }, 6000);
+    }, 6100);
     setTimeout(function(){
       $('#t3').animate({opacity:0, top:'-5px'},1000);
       setTimeout(function(){
         $('#t4').animate({opacity:1, top:'0px'},500);
       },500);
-    }, 9000);
+    }, 9100);
     setTimeout(function(){
         $('#t4').animate({opacity:0, top:'-5px'},1000);
         setTimeout(function(){
           $('#t5').animate({opacity:1, top:'0px'},500);
         },500);
-      }, 12000);
+      }, 12100);
       setTimeout(function(){
         $('#t5').animate({opacity:0, top:'-5px'},1000);
         setTimeout(function(){
           $('#t6').animate({opacity:1, top:'0px'},500);
         },500);
-      }, 15000);
+      }, 15100);
       setTimeout(function(){
         $('#t6').animate({opacity:0, top:'-5px'},1000);
         setTimeout(function(){
           $('#t7').animate({opacity:1, top:'0px'},500);
         },500);
-      }, 18000);
+      }, 18100);
       setTimeout(function(){
         $('#t7').animate({opacity:0, top:'-5px'},1000);
         setTimeout(function(){
           $('#t8').animate({opacity:1, top:'0px'},500);
         },500);
-      }, 21000);
+      }, 21100);
       setTimeout(function(){
         $('#t8').animate({opacity:0, top:'-5px'},1000);
         setTimeout(function(){
           $('#t9').animate({opacity:1, top:'0px'},500);
         },500);
-      }, 24000);
+      }, 24100);
       setTimeout(function(){
         $('#t9').animate({opacity:0, top:'-5px'},1000);
         setTimeout(function(){
           $('#t10').animate({opacity:1, top:'0px'},500);
         },500);
-      }, 27000);
+      }, 27100);
       setTimeout(function(){
         $('#t10').animate({opacity:0, top:'-5px'},1000);
         setTimeout(function(){
           $('#t11').animate({opacity:1, top:'0px'},500);
         },500);
-      }, 30000);
+      }, 30100);
       setTimeout(function(){
         $('#t11').animate({opacity:0, top:'-5px'},1000);
         setTimeout(function(){
           $('#t12').animate({opacity:1, top:'0px'},500);
         },500);
-      }, 33000);
+      }, 33100);
       setTimeout(function(){
         $('#t12').animate({opacity:0, top:'-5px'},1000);
         setTimeout(function(){
           $('#t13').animate({opacity:1, top:'0px'},500);
         },500);
-      }, 36000);
+      }, 36100);
       setTimeout(function(){
         $('#t13').animate({opacity:0, top:'-5px'},1000);
         setTimeout(function(){
           $('#t14').animate({opacity:1, top:'0px'},500);
         },500);
-      }, 39000);
+      }, 39100);
     setTimeout(function(){
         $('#t14').animate({opacity:0, top:'-5px'},1000);
         setTimeout(function(){
           $('#t15').animate({opacity:1, top:'0px'},500);
         },500);
-      }, 42000);
+      }, 42100);
     setTimeout(function(){
       $('#start-btn').addClass('open');
-    },45000);
+    },45100);
   }
   function roll1(t) {
     mm1 = setInterval(function(){
